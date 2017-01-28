@@ -57,7 +57,7 @@ a {
 }
 
 .btnForward:hover span {
-  padding-right: 25px;
+  padding-right: 25px; 
 }
 
 .btnForward span:after {
@@ -98,6 +98,26 @@ a {
 }
 .alignright {
 	float: right;
+}
+
+/*end added by me*/
+
+/*Added by me */
+.btn3 {
+    background-color: #155799;
+    border: 0f4070;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+.button:hover {
+    background-color: #0f9992;
 }
 
 /*end added by me*/
