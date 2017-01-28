@@ -129,39 +129,6 @@ a {
 
 /*end added by me*/
 
-/*Added by me*/
-
-a.btn4 {
-    height:50px;
-    line-height:50px;
-    vertical-align:middle;
-    text-align:center;
-    padding:0 10px;
-    color:#ffffff;
-    background-color:#0f9992;
-    position:relative;
-    display:inline-block;
-}
-a.btn:after{
-    position:absolute;
-    right:-20px;
-    width: 0px;
-    height: 0px;
-    border-style: solid;
-    border-width: 25px 0 25px 20px;
-    border-color: transparent transparent transparent #0f9992;
-}
-a.btn:hover{
-    background-color:12bab1;
-}
-a.btn:hover:after{
-    width: 0px;
-    height: 0px;
-    border-style: solid;
-    border-width: 25px 0 25px 20px;
-    border-color: transparent transparent transparent #12bab1;
-}
-
 @media screen and (min-width: 64em) {
   .btn {
     padding: 0.75rem 1rem; } }
