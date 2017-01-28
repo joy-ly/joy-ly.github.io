@@ -129,6 +129,37 @@ a {
 
 /*end added by me*/
 
+/*Added by me*/
+.rectangle {
+float: left;	
+position: relative;
+height: 80px;
+width: 240px;
+border: solid 1px;
+border-right: none;
+background: #0f9992;
+cursor: pointer;
+}
+
+.rectangle:after {
+position: absolute;
+top: 16px;
+right: -25px;
+width: 48px;
+height: 47px;
+border-left: none;
+border-top: none;
+-webkit-transform: rotate(134deg) skewX(-10deg) skewY(-10deg);
+background: #0f9992;
+}
+
+.aligncentre {
+	margin: auto;
+	width: 20%;
+}
+
+/*end added by me*/
+
 @media screen and (min-width: 64em) {
   .btn {
     padding: 0.75rem 1rem; } }
