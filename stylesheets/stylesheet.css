@@ -115,6 +115,7 @@ a {
     font-size: 16px;
     cursor: pointer;
     float: left;
+    display: inline-block;
 }
 
 .button:hover {
