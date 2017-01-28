@@ -104,6 +104,7 @@ a {
 
 /*Added by me */
 .btn3 {
+    border-radius: 4px;	
     background-color: #155799;
     border: 1px solid #0f4070;
     color: #FFFFFF;
