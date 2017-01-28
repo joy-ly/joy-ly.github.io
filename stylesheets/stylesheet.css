@@ -131,7 +131,7 @@ a {
 
 /*Added by me*/
 
-.btn4 {
+a.btn4 {
     height:50px;
     line-height:50px;
     vertical-align:middle;
@@ -142,7 +142,7 @@ a {
     position:relative;
     display:inline-block;
 }
-.btn:after{
+a.btn:after{
     position:absolute;
     right:-20px;
     width: 0px;
@@ -151,10 +151,10 @@ a {
     border-width: 25px 0 25px 20px;
     border-color: transparent transparent transparent #0f9992;
 }
-.btn:hover{
+a.btn:hover{
     background-color:12bab1;
 }
-.btn:hover:after{
+a.btn:hover:after{
     width: 0px;
     height: 0px;
     border-style: solid;
