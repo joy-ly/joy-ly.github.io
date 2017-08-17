@@ -233,6 +233,25 @@ border-radius:10px   ;
 
 /*end added by me*/
 
+/*Added by me */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd; }
+
+/*end added by me*/
+
 @media screen and (min-width: 64em) {
   .btn {
     padding: 0.75rem 1rem; } }
